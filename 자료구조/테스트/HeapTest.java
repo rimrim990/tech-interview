@@ -1,5 +1,3 @@
-package 자료구조.테스트;
-
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
