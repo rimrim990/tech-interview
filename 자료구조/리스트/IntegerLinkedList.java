@@ -21,7 +21,7 @@ public class IntegerLinkedList implements IntegerListInterface{
         }
     }
 
-    private Node getNode(int index) {
+    public Node getNode(int index) {
         Node curNode = head; // 더미 노드
         if (index >= -1 && index < numItems) {
             // -1 은 더미 노드
@@ -94,7 +94,7 @@ public class IntegerLinkedList implements IntegerListInterface{
     }
 
     // 원소 x 가 연결 리스트의 몇 번째 원소인지 알려주기
-    private static final int NOT_FOUND = -1;
+    public static final int NOT_FOUND = -1;
 
     @Override
     public int indexOf(Integer x) {
